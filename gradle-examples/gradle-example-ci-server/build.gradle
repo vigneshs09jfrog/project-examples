@@ -29,6 +29,11 @@ allprojects {
   status = 'integration'
 }
 
+dependencies {
+// https://mvnrepository.com/artifact/org.flywaydb/flyway-core
+compile group: 'org.flywaydb', name: 'flyway-core', version: '5.0.7'
+}
+
 // Setting this property to true will make the artifactoryPublish task
 // skip this module (in our case, the root module):
 artifactoryPublish.skip = true
