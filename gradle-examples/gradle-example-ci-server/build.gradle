@@ -24,7 +24,7 @@ buildscript {
            password = 'password'
          }
   }
-   //jcenter()
+   jcenter()
   }
 }
 
