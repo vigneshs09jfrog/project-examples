@@ -31,7 +31,7 @@ allprojects {
 
  dependencies {
 // https://mvnrepository.com/artifact/org.flywaydb/flyway-core
-compile group: 'org.flywaydb', name: 'flyway-core', version: '5.0.7'
+compile group: 'gradle-dev-local', name: 'flyway-core', version: '5.0.7'
 }
 
 // Setting this property to true will make the artifactoryPublish task
