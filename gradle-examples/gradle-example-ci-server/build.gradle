@@ -18,6 +18,11 @@ buildscript {
   repositories {
   maven {
     url 'http://localhost:8082/artifactory/gradle-dev-local/flyway-core-5.0.7.jar'
+       credentials
+         {
+           username = 'admin'
+           password = 'password'
+         }
   }
     jcenter()
   }
