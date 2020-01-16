@@ -6,7 +6,7 @@
       "recursive": "false"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/*ArtifactoryPipelineNoFlat.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/*ArtifactoryPipelineNoFlat(1).zip",
       "target": "libs-snapshot-local",
       "flat" :"false"
     }
