@@ -12,7 +12,7 @@
                   "$match": "."
                 },
                 "name": {
-                  "$match": "​*Pipeline.zip"
+                  "$match": "​*test(1).zip"
                 }
               }
             ]
@@ -24,7 +24,7 @@
                   "$match": "*​"
                 },
                 "name": {
-                  "$match": "*Pipeline.zip"
+                  "$match": "*test(1).zip"
                 }
               }
             ]
