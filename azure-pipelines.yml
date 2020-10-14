@@ -1,8 +1,3 @@
-- task: ArtifactoryPublishBuildInfo@1
-  inputs:
-    artifactoryService: 'vigneshs-saas'
-    buildName: '$(Build.DefinitionName)'
-    buildNumber: '$(Build.BuildNumber)'
 - task: ArtifactoryNuGet@2
   inputs:
     command: 'restore'
