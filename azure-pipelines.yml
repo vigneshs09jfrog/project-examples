@@ -9,17 +9,3 @@
     buildName: '$(Build.DefinitionName)'
     buildNumber: '$(Build.BuildNumber)'
     includeEnvVars: true
-# Build your Java project and run tests with Gradle using a Gradle wrapper script.
-# Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/java
-
-- task: ArtifactoryNuGet@2
-  inputs:
-    command: 'push'
-    artifactoryService: 'vigneshs-saas'
-    targetDeployRepo: 'nuget-local'
-    pathToNupkg: '*.nupkg'
-    collectBuildInfo: true
-    buildName: '$(Build.DefinitionName)'
-    buildNumber: '$(Build.BuildNumber)'
-    includeEnvVars: true
